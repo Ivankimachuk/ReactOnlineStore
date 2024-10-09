@@ -1,9 +1,10 @@
 import React, { Component } from "react";
 
-export class Item extends Component {
+export class ShowFullItem extends Component {
   render() {
     return (
-      <div className="item">
+      <div className="full-item">
+        <div>
         <img
           src={"./img/" + this.props.item.img}
           alt="Modern design"
@@ -18,9 +19,10 @@ export class Item extends Component {
         >
           +
         </div>
+        </div>
       </div>
     );
   }
 }
 
-export default Item;
+export default ShowFullItem;
