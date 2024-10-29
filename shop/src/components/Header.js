@@ -31,7 +31,11 @@ export default function Header(props) {
   return (
     <header>
       <div>
-        <span className="logo">House Staff</span>
+        {/* <span className="logo">House Staff</span> */}
+        <span className="logo">
+          <span className="red-letter">H</span>ouse{" "}
+          <span className="red-letter">S</span>taff
+        </span>
         <ul className="nav">
           <li>About Us</li>
           <li>Contacts</li>
